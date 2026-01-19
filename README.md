@@ -19,7 +19,7 @@ AI_log_analyzer/
 │   ├── query_engine.py
 │   └── utils.py
 ├── models/
-│   └── gpt4all-model.bin
+│   └── gpt4all-model.bin/mistral-7b-openorca.Q4_0.gguf
 ├── data/
 │   └── logs/
 ├── requirements.txt
@@ -38,6 +38,7 @@ pip install -r requirements.txt
 ```bash
 git clone https://github.com/nomic-ai/gpt4all.git
 cd gpt4all
+add mistral-7b-openorca.Q4_0.gguf model in gpt4all/models/mistral-7b-openorca.Q4_0.gguf
 pip install -r requirements.txt
 python download_model.py  # or manually download model file
 ```
@@ -51,3 +52,4 @@ mv ~/Downloads/gpt4all-model.bin ../AI_log_analyzer/models/
 cd ../AI_log_analyzer
 python run.py
 ```
+

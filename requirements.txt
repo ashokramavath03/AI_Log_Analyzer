@@ -1,0 +1,12 @@
+streamlit
+sentence-transformers
+faiss-cpu
+numpy
+llama-cpp-python
+torch
+scikit-learn
+nlp
+nltk
+tqdm
+textblob
+symspellpy
